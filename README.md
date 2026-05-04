@@ -64,12 +64,11 @@
   1. 访问 [OpenAI Platform](https://platform.openai.com/)
   2. 注册账号并验证手机号
   3. 在 API Keys 页面创建密钥
-- **免费模型**: GPT-4o-mini 价格极低，$5 可用很久
-- **限制**: 每分钟 3 次请求（免费层）
+- **限制**: 免费层速率限制因模型而异
 - **文档**: https://platform.openai.com/docs
 
 ### Anthropic Claude
-- **免费额度**: 新用户注册送 **$5 体验金**
+- **免费额度**: 新用户注册送**小额体验金**（具体金额未公开）
 - **获取方式**:
   1. 访问 [Anthropic Console](https://console.anthropic.com/)
   2. 注册账号
@@ -78,18 +77,19 @@
 - **文档**: https://docs.anthropic.com/
 
 ### Google Gemini
-- **免费额度**: **免费层** 每分钟 15 次请求（Gemini 2.0 Flash）
+- **免费额度**: **免费层**（Gemini 2.5 Flash 等模型免费输入输出）
 - **获取方式**:
   1. 访问 [Google AI Studio](https://aistudio.google.com/)
   2. 使用 Google 账号登录
   3. 获取 API Key
 - **亮点**: Gemini 2.5 Pro/Flash 免费层额度非常慷慨
+- **⚠️ 注意**: Gemini 2.0 Flash 已弃用，将于 2026 年 6 月关停，请用 2.5 系列
 - **文档**: https://ai.google.dev/docs
 
 ### xAI (Grok)
-- **免费额度**: 新用户送 **$25 体验金**
+- **免费额度**: 新用户**可能**有体验金（金额不固定，非官方公开承诺）
 - **获取方式**: 访问 [xAI Console](https://console.x.ai/)
-- **亮点**: Grok 系列模型，免费额度多
+- **亮点**: Grok 系列模型
 - **文档**: https://docs.x.ai/
 
 ### Mistral
@@ -98,13 +98,15 @@
 - **文档**: https://docs.mistral.ai/
 
 ### Cohere
-- **免费额度**: 每月 **100 次** API 调用（试用版）
+- **免费额度**: 试用版有基础调用额度（具体数量不固定）
 - **获取方式**: 访问 [Cohere Dashboard](https://dashboard.cohere.com/)
 - **文档**: https://docs.cohere.com/
 
 ---
 
 ## 🇨🇳 国内大模型免费额度
+
+> ⚠️ 以下国内厂商的免费额度基于公开信息和用户反馈，具体金额可能随活动调整，请以官方最新公告为准。
 
 ### NVIDIA 🔥🔥🔥（Andy 推荐）
 - **免费额度**: **100+ 顶级模型免费用一整年**（H100 算力）
@@ -302,7 +304,7 @@
 
 ### 推荐组合（日常开发）
 ```
-免费首选: Google Gemini 2.0 Flash (免费层)
+免费首选: Google Gemini 2.5 Flash (免费层)
 中文任务: DeepSeek (极低成本) / 通义千问 (免费额度)
 编程任务: Groq + Llama (免费 + 超快)
 多模态:  智谱 GLM-4V (免费额度)
