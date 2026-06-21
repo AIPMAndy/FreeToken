@@ -26,12 +26,33 @@
 | 项目 | Stars | 说明 | 链接 |
 |------|-------|------|------|
 | **chatanywhere/GPT_API_free** | ⭐ 38.5k | 免费 ChatGPT & DeepSeek API，支持 GPT/Claude/Gemini/Grok 等主流模型 | [GitHub](https://github.com/chatanywhere/GPT_API_free) |
+| **router-for-me/CLIProxyAPI** | ⭐ 38k | 封装 Antigravity、Codex、Claude Code、Grok Build 为 OpenAI/Gemini/Claude 兼容 API | [GitHub](https://github.com/router-for-me/CLIProxyAPI) |
+| **cheahjs/free-llm-api-resources** | ⭐ 23.7k | 免费 LLM 推理资源列表，通过 API 访问 | [GitHub](https://github.com/cheahjs/free-llm-api-resources) |
+
+### 🌟 千星级优质项目
+
+| 项目 | Stars | 说明 | 链接 |
+|------|-------|------|------|
+| **justlovemaki/AIClient2API** | ⭐ 8.3k | 模拟 Gemini CLI、Antigravity、Codex、Grok、Kiro 客户端请求，兼容 OpenAI API | [GitHub](https://github.com/justlovemaki/AIClient2API) |
+| **diegosouzapw/OmniRoute** | ⭐ 6.7k | 免费 AI 网关：单个端点，160+ 提供商（50+ 免费），连接 Claude Code、Codex、Cursor | [GitHub](https://github.com/diegosouzapw/OmniRoute) |
+| **PawanOsman/ChatGPT** | ⭐ 5.9k | OpenAI API 免费反向代理 | [GitHub](https://github.com/PawanOsman/ChatGPT) |
+| **Arthur-Ficial/apfel** | ⭐ 5.8k | Mac 上通过 Apple Intelligence 免费使用 AI，OpenAI 兼容服务器 | [GitHub](https://github.com/Arthur-Ficial/apfel) |
+| **twinnydotdev/twinny** | ⭐ 3.6k | VS Code 免费 AI 代码补全插件，类似 GitHub Copilot 但 100% 免费 | [GitHub](https://github.com/twinnydotdev/twinny) |
+| **alistaitsacle/free-llm-api-keys** | ⭐ 2.6k | 免费 LLM API Keys：GPT-5.5、Claude、DeepSeek、Gemini、Grok，每天更新 3-5 次 | [GitHub](https://github.com/alistaitsacle/free-llm-api-keys) |
+| **IntelligenzaArtificiale/Free-Auto-GPT** | ⭐ 2.5k | 免费 Auto GPT，无需付费 API | [GitHub](https://github.com/IntelligenzaArtificiale/Free-Auto-GPT) |
+| **theJayTea/WritingTools** | ⭐ 2.3k | 系统级语法助手，Apple Intelligence 写作工具的更好版本 | [GitHub](https://github.com/theJayTea/WritingTools) |
+| **jwadow/kiro-gateway** | ⭐ 2k | Kiro IDE & CLI 代理网关（Amazon Q Developer），免费使用 Claude 模型 | [GitHub](https://github.com/jwadow/kiro-gateway) |
+| **snowby666/poe-api-wrapper** | ⭐ 1.1k | Poe.com Python API 封装，免费访问 GPT-4、Claude、Llama、Gemini | [GitHub](https://github.com/snowby666/poe-api-wrapper) |
+| **XInTheDark/raycast-g4f** | ⭐ 1.1k | Raycast 扩展，免费使用 GPT、Claude、Llama 等 | [GitHub](https://github.com/XInTheDark/raycast-g4f) |
 
 ### 🌐 其他优质免费 API 项目
 
 | 项目 | Stars | 说明 | 链接 |
 |------|-------|------|------|
 | **Amm1rr/WebAI-to-API** | ⭐ 1.3k | Gemini/ChatGPT/Claude/DeepSeek 转 API，无需 API Key | [GitHub](https://github.com/Amm1rr/WebAI-to-API) |
+| **RockChinQ/free-one-api** | ⭐ 847 | LLM 逆向工程接口管理，通过标准 OpenAI API 访问多个 AI | [GitHub](https://github.com/RockChinQ/free-one-api) |
+| **kittors/CliRelay** | ⭐ 801 | 封装 Gemini CLI、Antigravity、Codex、Claude Code、Qwen Code 为 API | [GitHub](https://github.com/kittors/CliRelay) |
+| **aledipa/Free-GPT4-WEB-API** | ⭐ 709 | 自托管、无限制、免费的 WEB API（Gemini、DeepSeek、Claude、GPT） | [GitHub](https://github.com/aledipa/Free-GPT4-WEB-API) |
 | **vibheksoni/free-ai** | ⭐ 656 | 16,000+ 模型免费用，通过 Discord 获取 Key | [GitHub](https://github.com/vibheksoni/free-ai) |
 | **GetGoAPI/Free-GPT-Grok-Gemini-Claude-API** | ⭐ 213 | GPT-5/o4/Claude 4.5/Gemini 3 统一入口，国内直连 | [GitHub](https://github.com/GetGoAPI/Free-GPT-Grok-Gemini-Claude-API) |
 | **galaxyapi/claude-3** | ⭐ 127 | 免费 Claude 代理，无需 Anthropic Key | [GitHub](https://github.com/galaxyapi/claude-3) |
@@ -462,6 +483,10 @@ api_key = os.getenv("OPENAI_API_KEY")
 ## 🆕 2026 年更新亮点
 
 ### 新增内容
+- **16 个高质量 GitHub 项目**（通过浏览器实时抓取）：
+  - 2 个新的万星项目（router-for-me/CLIProxyAPI 38k、cheahjs/free-llm-api-resources 23.7k）
+  - 11 个千星级项目（AIClient2API、OmniRoute、PawanOsman/ChatGPT、apfel、twinny 等）
+  - 4 个百星级优质项目（RockChinQ/free-one-api、CliRelay、Free-GPT4-WEB-API 等）
 - **8 个免费 Web AI 平台**：Poe、You.com、DuckDuckGo AI Chat、Perplexity、HuggingChat、Phind、ForeFront、nat.dev
 - **零成本使用策略**：Web 界面无限免费 + API 免费额度叠加
 - **场景化推荐**：个人学习、开发者、企业级三套完整方案
