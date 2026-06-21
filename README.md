@@ -38,6 +38,19 @@
 | **codeking-ai/cligate** | ⭐ 99 | Claude Code 多协议代理，账号池、免费模型路由 | [GitHub](https://github.com/codeking-ai/cligate) |
 | **callbacked/keyless-gpt-wrapper-api** | ⭐ 98 | 通过 DuckDuckGo AI Chat 免费使用 GPT-4o/Claude | [GitHub](https://github.com/callbacked/keyless-gpt-wrapper-api) |
 
+### 🆓 免费 API 接口与工具
+
+| 项目/服务 | 说明 | 链接 |
+|---------|------|------|
+| **Poe** | Quora 推出的 AI 聊天平台，免费使用 GPT-4、Claude、Gemini 等模型 | [poe.com](https://poe.com/) |
+| **You.com** | 免费 AI 搜索引擎，支持 GPT-4 级别的对话和搜索 | [you.com](https://you.com/) |
+| **Perplexity AI** | 免费 AI 搜索引擎，Pro 版本包含 GPT-4、Claude 等模型 | [perplexity.ai](https://www.perplexity.ai/) |
+| **Hugging Chat** | HuggingFace 免费聊天界面，支持 Llama、Mistral 等开源模型 | [huggingface.co/chat](https://huggingface.co/chat) |
+| **DuckDuckGo AI Chat** | 完全免费匿名使用 GPT-4o、Claude 3、Llama 3 等模型 | [duckduckgo.com](https://duckduckgo.com/?q=DuckDuckGo&ia=chat) |
+| **Phind** | 面向开发者的免费 AI 搜索引擎，基于 GPT-4 | [phind.com](https://www.phind.com/) |
+| **ForeFront** | 免费访问 GPT-4、Claude、Gemini 等模型的聊天平台 | [forefront.ai](https://www.forefront.ai/) |
+| **nat.dev** | 免费的 AI 代码助手，支持多种模型 | [nat.dev](https://nat.dev/) |
+
 ---
 
 ## 🤖 AI 模型官方免费额度
@@ -358,6 +371,34 @@
 6. **批量请求**：合并多个请求，减少调用次数
 7. **流式输出**：需要时再用，减少无效 Token
 
+### 免费使用技巧
+
+#### 🎯 零成本使用策略
+1. **官方免费层优先**：Gemini 2.5 Flash（200万Token/天）、DeepSeek（500万Token）
+2. **聚合平台轮换**：OpenRouter、Silicon Flow、Groq 免费额度叠加使用
+3. **Web 界面备用**：DuckDuckGo AI Chat、Poe、You.com 等无限免费使用
+4. **NVIDIA H100**：100+ 模型免费用一年，覆盖 DeepSeek/Llama/Qwen/GLM
+5. **限时活动**：小米 MiMo 100T Token（2026年5月前）
+
+#### 📱 不同场景推荐
+
+**个人学习/轻度使用**
+```
+对话聊天:  DuckDuckGo AI Chat (完全免费匿名) / Poe
+代码编程:  Phind (免费 GPT-4) / nat.dev
+搜索研究:  Perplexity AI / You.com
+API 调用:  Gemini 2.5 Flash / DeepSeek V3
+```
+
+**开发者/中度使用**
+```
+主力模型:  NVIDIA H100 (DeepSeek/Llama/Qwen 免费一年)
+备用 API:  OpenRouter 免费模型 / Groq Llama 3.1 70B
+快速推理:  Groq LPU (1000+ tokens/s)
+多模态:   Gemini 2.5 Pro (200万上下文) / GLM-4V
+图像生成:  Cloudflare SDXL / Together FLUX
+```
+
 ### 推荐组合（2026 年版）
 
 #### 方案 1: 完全免费（个人开发者）
@@ -368,6 +409,7 @@
 多模态:   智谱 GLM-4V (免费额度) / Gemini 2.5 Pro
 图像生成:  Cloudflare SDXL (免费) / Together FLUX
 语音合成:  MiniMax 海螺 AI (免费额度)
+Web备用:  DuckDuckGo AI Chat / Poe / You.com (无限免费)
 ```
 
 #### 方案 2: 低成本高性能（专业用户）
@@ -419,20 +461,33 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 ## 🆕 2026 年更新亮点
 
+### 新增内容
+- **8 个免费 Web AI 平台**：Poe、You.com、DuckDuckGo AI Chat、Perplexity、HuggingChat、Phind、ForeFront、nat.dev
+- **零成本使用策略**：Web 界面无限免费 + API 免费额度叠加
+- **场景化推荐**：个人学习、开发者、企业级三套完整方案
+
 ### 新增平台
 - **NVIDIA H100 免费算力**：100+ 模型免费用一年
 - **小米 MiMo 100T Token**：限时激励计划
 - **Together AI 增加额度**：从 $5 提升到 $25
 - **Gemini 2.5 系列**：2.0 系列弃用，全面升级 2.5
+- **DuckDuckGo AI Chat**：完全免费匿名使用 GPT-4o/Claude/Llama
 
 ### 模型推荐更新
 - **最强推理**：DeepSeek R1（开源）、Claude 3.5 Sonnet（闭源）
 - **最快速度**：Groq LPU（1000+ tokens/s）
 - **最长上下文**：Gemini 2.5 Pro（200万 Token）
 - **最佳性价比**：DeepSeek V3（¥1/百万Token）
+- **最适合新手**：DuckDuckGo AI Chat（免费匿名无限使用）
 
 ### 已删除项目
 - **LLM-Red-Team 系列**：所有逆向 API 项目已下线（kimi/deepseek/qwen/glm/metaso/doubao等）
+
+### 数据更新
+- 验证并更新所有 GitHub 项目 Stars 数据（截至 2026-06-21）
+- chatanywhere/GPT_API_free: 37.7k → 38.5k
+- vibheksoni/free-ai: 328 → 656 (增长 100%)
+- codeking-ai/cligate: 50 → 99 (增长 98%)
 
 ---
 
