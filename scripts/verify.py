@@ -29,6 +29,7 @@ for x in items:
     require(x["name"] in readme, f"{x['id']}: missing in README")
     require(f'id="{x["id"]}"' in html, f"{x['id']}: missing HTML card")
     require(x["quota"].replace("&", "&amp;") in html, f"{x['id']}: HTML quota differs from ledger")
+    require(x["quota"] in readme, f"{x['id']}: README quota differs from ledger")
     require(x["source"].replace("&", "&amp;") in html, f"{x['id']}: official source URL missing in HTML")
     require(x["checked"] == ledger["updated"] if x["verified"] else x["checked"] is None, f"{x['id']}: invalid verification date")
     if x["kind"] == "paid": require(x["verified"],f"{x['id']}: paid status without supporting official source")
@@ -39,6 +40,8 @@ require("https://aipmandy.github.io/FreeToken/" in html and 'rel="canonical"' in
 require("https://metaver.vip/" in html and "AIPMAndy" in html,"contact missing")
 require("Free 用户每月赠送积分为 0" in html, "HF updated policy missing")
 require("$0.10/月" not in html and "$0.10 / 月" not in html, "obsolete Hugging Face benefit still in HTML")
+require("<div class=\"grid\" id=\"card-list\">0 额度" not in html, "JS string replacement damaged dollar amounts")
+require("</div><p id=\"empty\" 计算额度" not in html, "JS string replacement damaged dollar amounts")
 root = ET.fromstring(sitemap)
 urls=[x.text for x in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
 expected={"https://aipmandy.github.io/FreeToken/","https://aipmandy.github.io/FreeToken/ecosystem.html",*("https://aipmandy.github.io/FreeToken/guides/"+n+".html" for n in ("qwen-free-api","openrouter-free-api","huggingface-pricing"))}
