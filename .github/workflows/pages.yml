@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Validate catalog before deployment
+        run: python3 scripts/verify.py
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload static website

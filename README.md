@@ -8,7 +8,7 @@
 
 > ⚠️ **免费网页聊天 ≠ 免费 API。试用体验金 ≠ 永久免费。** 免费策略会因账号、国家/地区、模型、计费方式而变化。本站绝不分发共享 API Key，也不保证任何固定权益长期有效。
 
-**本次重审：2026-10-22。** “官方文档已核对”表示核验了公开说明，**不代表已登录不同地区账号实测额度**。本次未能证实的赠额已降级为待核验，历史活动不继续宣传。
+**本次深度复核：2026-10-22。** “官方文档已核对”表示核验了公开说明，**不代表已登录不同地区账号实测额度**。本次未能证实的赠额已降级为待核验，历史活动不继续宣传。
 
 ## 目录
 
@@ -23,27 +23,40 @@
 
 ## 免费 AI API 资源总表
 
-| 平台 | 类型 | 官方公布的免费权益 / 提示 | 核验来源 | 状态 |
+<!-- FREETOKEN_TABLE_START -->
+| 平台 | 类型 | 当前公开政策 / 注意 | 来源 | 审核状态 |
 |---|---|---|---|---|
-| [Google Gemini API](https://aistudio.google.com/) | 官方免费层 | 部分模型输入/输出免费；RPM / TPM / RPD 以 AI Studio 当前限额为准。 | [官方资料](https://ai.google.dev/gemini-api/docs/rate-limits) | 2026-10-22 公开资料核验 |
-| [OpenRouter 免费模型](https://openrouter.ai/models?max_price=0) | 官方免费层 | 当前公开说明：未累计购买 $10 额度时，20 RPM、50 请求/日；累计购买达 $10 后可到 1,000 请求/日。 | [官方资料](https://openrouter.ai/docs/api-reference/limits) | 2026-10-22 公开资料核验 |
-| [GroqCloud](https://console.groq.com/) | 官方免费层 | 例如官方当前列出 openai/gpt-oss-20b：30 RPM、1,000 RPD；其他模型不同。 | [官方资料](https://console.groq.com/docs/rate-limits) | 2026-10-22 公开资料核验 |
-| [Cloudflare Workers AI](https://dash.cloudflare.com/) | 官方免费层 | 10,000 Neurons / 日（不是 10,000 次请求）。 | [官方资料](https://developers.cloudflare.com/workers-ai/platform/pricing/) | 2026-10-22 公开资料核验 |
-| [Hugging Face Inference Providers](https://huggingface.co/settings/tokens) | 试用 / 免费体验金 | 普通 Free 用户 $0.10 / 月（官方注明可能变化）。 | [官方资料](https://huggingface.co/docs/inference-providers/pricing) | 2026-10-22 公开资料核验 |
-| [Cohere Evaluation API](https://dashboard.cohere.com/) | 试用 / 免费体验金 | 试用密钥总体限制 1,000 API 调用/月；不同端点另有速率限制。 | [官方资料](https://docs.cohere.com/v2/docs/rate-limits) | 2026-10-22 公开资料核验 |
-| [硅基流动 SiliconFlow](https://cloud.siliconflow.cn/) | 按模型区分 | 按当前选定模型的输入/输出价格为准；不要把全站当免费。 | [官方资料](https://siliconflow.cn/pricing) | 2026-10-22 公开资料核验 |
-| [阿里云百炼 / Qwen](https://bailian.console.aliyun.com/) | 需复核具体额度 | 不公布未经本轮确认的固定免费 Token 数量。 | [官方资料](https://help.aliyun.com/zh/model-studio/) | 待复核 |
-| [DeepSeek API](https://platform.deepseek.com/) | 需复核具体额度 | 注册活动及余额以平台实际展示为准。 | [官方资料](https://api-docs.deepseek.com/quick_start/pricing) | 待复核 |
-| [智谱 GLM 开放平台](https://open.bigmodel.cn/) | 需复核具体额度 | 未核实长期赠额；按官方控制台显示为准。 | [官方资料](https://open.bigmodel.cn/) | 待复核 |
-| [NVIDIA Build API Catalog](https://build.nvidia.com/) | 需复核具体额度 | 不再承诺“100+ 模型免费用一年”“H100 每天五万次”。 | [官方资料](https://build.nvidia.com/) | 待复核 |
-| [OpenAI API](https://platform.openai.com/) | 需复核具体额度 | 不能把“新用户必送 $5”作为现行统一政策。 | [官方资料](https://platform.openai.com/docs/) | 待复核 |
-| [Mistral API](https://console.mistral.ai/) | 需复核具体额度 | 具体额度及账单要求以官方 Console 为准。 | [官方资料](https://docs.mistral.ai/) | 待复核 |
+| [Google Gemini API](https://aistudio.google.com/) | 官方免费层 | Gemini 2.5 Flash / Flash-Lite 等部分模型有免费输入输出 Token；实时 RPM/TPM/RPD 按项目和模型显示。 | [官方来源](https://ai.google.dev/gemini-api/docs/pricing) | 2026-10-22 公开文档已核对 |
+| [OpenRouter 免费模型](https://openrouter.ai/models?max_price=0) | 官方免费层 | 免费模型 20 RPM、50 请求/日；账户累计购买至少 $10 额度后上限可至 1,000 请求/日。 | [官方来源](https://openrouter.ai/pricing) | 2026-10-22 公开文档已核对 |
+| [GroqCloud 免费计划](https://console.groq.com/) | 官方免费层 | openai/gpt-oss-20b：30 RPM、1,000 RPD、8,000 TPM（官方 Free Plan 示例）。 | [官方来源](https://console.groq.com/docs/rate-limits) | 2026-10-22 公开文档已核对 |
+| [Cloudflare Workers AI](https://dash.cloudflare.com/) | 官方免费层 | 每天免费 10,000 Neurons；不是每天 10,000 次请求。 | [官方来源](https://developers.cloudflare.com/workers-ai/platform/pricing/) | 2026-10-22 公开文档已核对 |
+| [硅基流动 SiliconFlow](https://cloud.siliconflow.cn/) | 部分模型免费 | 公开价格页：tencent/Hunyuan-MT-7B、BAAI/bge-m3 等指定模型标记“免费”。 | [官方来源](https://siliconflow.cn/pricing) | 2026-10-22 公开文档已核对 |
+| [阿里云百炼 / Qwen](https://bailian.console.aliyun.com/) | 试用 / 新人额度 | 新人各模型通常赠送 100 万 Token，限华北2（北京）地域，通常 90 天有效；以模型详情为准。 | [官方来源](https://help.aliyun.com/zh/model-studio/new-free-quota) | 2026-10-22 公开文档已核对 |
+| [Cohere Evaluation API](https://dashboard.cohere.com/) | 试用 / 新人额度 | Evaluation Key 免费测试；试用密钥每月合计限制 1,000 次 API 调用。 | [官方来源](https://docs.cohere.com/v2/docs/rate-limits) | 2026-10-22 公开文档已核对 |
+| [Cerebras Inference](https://cloud.cerebras.ai/) | 试用 / 新人额度 | 官方宣传：提供有效支付方式可得一次性 $5 试用金，激活后 30 天失效。 | [官方来源](https://www.cerebras.ai/pricing) | 2026-10-22 公开文档已核对 |
+| [Hugging Face Inference Providers](https://huggingface.co/) | 无普适免费额度 | 官网现行政策：普通 Free 用户每月赠送积分为 0；PRO 订阅包含每月 $2 计算额度。 | [官方来源](https://huggingface.co/docs/inference-providers/pricing) | 2026-10-22 公开文档已核对 |
+| [DeepSeek 官方 API](https://platform.deepseek.com/) | 待核验 | 按模型价格表或实际账单计费；原“注册必送 500 万 Token”缺少持续适用的官方证据。 | [官方来源](https://api-docs.deepseek.com/quick_start/pricing) | 账号权益待核实 |
+| [智谱 GLM API](https://open.bigmodel.cn/) | 待核验 | 部分历史活动或免费模型可能存在，暂无可统一适用的实时赠额核验结论。 | [官方来源](https://open.bigmodel.cn/) | 账号权益待核实 |
+| [NVIDIA Build / NIM](https://build.nvidia.com/) | 待核验 | 可查看模型 API 试用；无法确认所有账号“免费一年、每天 5 万次”。 | [官方来源](https://build.nvidia.com/) | 账号权益待核实 |
+| [OpenAI API](https://platform.openai.com/) | 待核验 | API 按独立计费账户管理；不保证所有新账号注册送 $5。 | [官方来源](https://platform.openai.com/docs/) | 账号权益待核实 |
+| [Mistral API](https://console.mistral.ai/) | 待核验 | 官方有按模型的公开定价；免费试用资格请以当前账号 Console 为准。 | [官方来源](https://docs.mistral.ai/inference/pricing) | 账号权益待核实 |
+| [Kimi / Moonshot API](https://platform.kimi.com/) | 待核验 | 官方价格随模型更新；旧“注册送 15 元”尚未找到可长期适用的公开说明。 | [官方来源](https://platform.kimi.com/) | 账号权益待核实 |
+| [xAI Grok API](https://console.x.ai/) | 待核验 | 账户赠金和活动资格需以当前官方 Console 为准。 | [官方来源](https://docs.x.ai/) | 账号权益待核实 |
+<!-- FREETOKEN_TABLE_END -->
 
 > 数据解释：**官方免费层**＝官方公布的指定 API / 模型免费层；**试用**＝限额体验金或测试密钥；**按模型区分**＝有免费模型也有付费模型；**待复核**＝不能在缺乏现行公开证据时声称免费。详细的领取步骤、限制和搜索过滤请打开 [FreeToken 网站](https://aipmandy.github.io/FreeToken/)。
 
 ## 更多免费 API 开源项目 / 云服务 / 数据服务
 
 原版收集的 **GitHub 免费 API 项目、Claude/Grok/Kimi、AWS、Azure、Google Cloud、GitHub Copilot、NewsAPI、OpenWeather、Alpha Vantage** 等资源已整理成独立的 [扩展目录（含安全与证据边界）](CATALOG.md)，也可浏览 [网页版生态目录](https://aipmandy.github.io/FreeToken/ecosystem.html)。这些候选项目不等于现行可用的免费 API Token。原始历史资料另见 [2026-06-21 旧版](https://github.com/AIPMAndy/FreeToken/blob/daf796ce49bdaf7e1d70c0085f8b36f5a8909b89/README.md)。
+
+## 2026-10-22 最新政策重要变化
+
+- **Hugging Face Inference Providers**：Free 账户已无每月赠送计算积分；原文的 $0.10/月已撤回。PRO/Team 的 $2/月与订阅付费关联，并非 Free 用户福利。详见 [官方说明](https://huggingface.co/docs/inference-providers/pricing)。
+- **阿里云百炼 / Qwen**：首次开通的北京地域用户可获得按模型划分的新人免费额度，通常 100 万 Token / 模型、有效期 90 天。已实名用户请务必启用“免费额度用完即停”。详见 [官方规则](https://help.aliyun.com/zh/model-studio/new-free-quota)。
+- **Cerebras**：官方注明提供有效支付方式可获一次性 $5 / 30 天试用金，属于促销活动，需核实资格。详见 [官方定价](https://www.cerebras.ai/pricing)。
+- **硅基流动**：例如 `tencent/Hunyuan-MT-7B`、`BAAI/bge-m3` 在公开价格页标注“免费”；其他型号可能收费。详见 [官方价格表](https://siliconflow.cn/pricing)。
+- **OpenRouter、Groq、Cloudflare**：分别按日请求数、模型维度 RPM/RPD、Neurons 计量，不能将其混为“免费无限次”。
 
 ## 怎么选平台
 
@@ -77,6 +90,10 @@ curl https://openrouter.ai/api/v1/chat/completions \
 
 ## 免费额度的常见误解
 
+- **“Hugging Face Free 每月赠送 $0.10”**：已不适用；官方 Free 用户当前没有每月赠送积分。
+- **“阿里云百炼免费额度永不过期”**：错；目前新人额度通常 90 天且仅北京地域适用，已实名用户可能自动按量付费。
+- **“硅基流动所有 API 免费”**：错；只针对公开价格标为“免费”的模型，核对模型 ID 与 Pro 版本。
+
 - **“注册送 $5 OpenAI API”**：无法作为适用于所有新账号的长期承诺；具体以 Platform Billing 为准。
 - **“DeepSeek 注册送 500 万 Tokens”**：原文没有可靠的现行官方证据，已撤回固定数字。
 - **“NVIDIA H100 免费一年 / 一天 5 万次”**：原文存在把平台试用与实际硬件能力混为一谈的问题，已撤回。
@@ -93,6 +110,12 @@ curl https://openrouter.ai/api/v1/chat/completions \
 - 对第三方网关进行独立安全审计；尤其不要交付主账号 Cookie、长期刷新令牌。
 - 对提供商的免费服务条款、地区限制、数据使用政策和生产用途限制进行核对。
 - 对 429 限流使用退避重试，不通过多账号批量注册规避限制。
+
+## 数据与自动审核
+
+- [data/providers.json](data/providers.json) 是结构化资源台账，保存分类、官方文档、核验范围和日期。
+- [scripts/verify.py](scripts/verify.py) 自动检查台账、README、HTML 卡片、网站地图及过期宣传用语的一致性。
+- [AUDIT.md](AUDIT.md) 保留对抗式审查报告及残余风险；新增信息需要同时更新网站和台账。
 
 ## 贡献和纠错
 

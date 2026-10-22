@@ -8,7 +8,9 @@
 
 **发布方式 B：Deploy from a branch**。如使用分支发布，选择 main / (root)。根目录已经包含 `index.html`、`.nojekyll`、`robots.txt`、`sitemap.xml`。两种模式择一即可，不要重复配置。
 
-本仓库无需构建命令，也无外部 npm/CDN 依赖。
+本仓库无需构建命令，也无外部 npm/CDN 依赖；主页面预渲染 16 个资源卡片，可供搜索引擎无 JS 抓取。推送时由 `scripts/verify.py` 校验台账、页面和站点地图，另有独立 Audit CI。
+
+**当前未完成的外部动作**：如果 GitHub Actions 日志显示 `Get Pages site failed: Not Found`，应先在仓库 Settings → Pages → Build and deployment → Source 选择 `GitHub Actions`，GitHub App 现有写入权限不足以直接修改该后台设置。不要误以为修改 workflow 的 `enablement` 可以用默认 `GITHUB_TOKEN` 自动创建站点。
 
 ## 百度 / Bing 搜索保全
 
