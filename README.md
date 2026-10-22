@@ -13,6 +13,7 @@
 ## 目录
 
 - [免费 AI API 资源总表](#免费-ai-api-资源总表)
+- [更多免费 API 开源项目 / 云服务 / 数据服务](#更多免费-api-开源项目--云服务--数据服务)
 - [怎么选平台](#怎么选平台)
 - [5 分钟上手](#5-分钟上手)
 - [免费额度的常见误解](#免费额度的常见误解)
@@ -39,6 +40,10 @@
 | [Mistral API](https://console.mistral.ai/) | 需复核具体额度 | 具体额度及账单要求以官方 Console 为准。 | [官方资料](https://docs.mistral.ai/) | 待复核 |
 
 > 数据解释：**官方免费层**＝官方公布的指定 API / 模型免费层；**试用**＝限额体验金或测试密钥；**按模型区分**＝有免费模型也有付费模型；**待复核**＝不能在缺乏现行公开证据时声称免费。详细的领取步骤、限制和搜索过滤请打开 [FreeToken 网站](https://aipmandy.github.io/FreeToken/)。
+
+## 更多免费 API 开源项目 / 云服务 / 数据服务
+
+原版收集的 **GitHub 免费 API 项目、Claude/Grok/Kimi、AWS、Azure、Google Cloud、GitHub Copilot、NewsAPI、OpenWeather、Alpha Vantage** 等资源已整理成独立的 [扩展目录（含安全与证据边界）](CATALOG.md)，也可浏览 [网页版生态目录](https://aipmandy.github.io/FreeToken/ecosystem.html)。这些候选项目不等于现行可用的免费 API Token。原始历史资料另见 [2026-06-21 旧版](https://github.com/AIPMAndy/FreeToken/blob/daf796ce49bdaf7e1d70c0085f8b36f5a8909b89/README.md)。
 
 ## 怎么选平台
 
