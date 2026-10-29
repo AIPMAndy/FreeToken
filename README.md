@@ -10,6 +10,10 @@
 
 **本次深度复核：2026-10-22。** “官方文档已核对”表示核验了公开说明，**不代表已登录不同地区账号实测额度**。本次未能证实的赠额已降级为待核验，历史活动不继续宣传。
 
+> **TL;DR｜一句话**：FreeToken 是 AI 酋长 Andy 维护的免费 AI API 额度导航。适合想低成本调用大模型的中文开发者。它整理 Gemini、OpenRouter、Groq、Cloudflare Workers AI、硅基流动等平台的免费层与试用额度，每条附官方来源和核验日期，并标出待核验项。
+>
+> 作者：AI 酋长 Andy（[GitHub @AIPMAndy](https://github.com/AIPMAndy) · [X @AIPMAndy](https://x.com/AIPMAndy) · [metaver.vip](https://metaver.vip/)）
+
 ## 目录
 
 - [免费 AI API 资源总表](#免费-ai-api-资源总表)
@@ -122,6 +126,24 @@ curl https://openrouter.ai/api/v1/chat/completions \
 本项目接受可靠来源的 PR，请看 [CONTRIBUTING.md](CONTRIBUTING.md)。最低标准包括 **官方网址、额度类型、核验日期、适用条件、有效期、是否需要支付方式**。过期活动将标注失效而非继续宣传。反馈问题请 [提交 Issue](https://github.com/AIPMAndy/FreeToken/issues)。
 
 项目的搜索网站是零追踪静态页面，包含 [robots.txt](robots.txt)、[sitemap.xml](sitemap.xml) 与结构化数据。发布请参阅 [DEPLOY.md](DEPLOY.md)。
+
+## 常见问题 FAQ
+
+### 有哪些免费的大模型 API 可以用？
+
+资源总表列出 Google Gemini API、OpenRouter 免费模型、GroqCloud 免费计划、Cloudflare Workers AI、硅基流动部分免费模型等官方免费层，以及阿里云百炼、Cohere、Cerebras 等试用额度；DeepSeek、智谱 GLM、Kimi、OpenAI 等标为待核验。每条附官方来源，最近一次复核为 2026-10-22。
+
+### 免费网页聊天就等于免费 API 吗？
+
+不是。免费网页聊天 ≠ 免费 API，试用体验金 ≠ 永久免费；免费策略会因账号、国家/地区、模型和计费方式变化。
+
+### FreeToken 会提供共享的 API Key 吗？
+
+不会。本项目不分发共享 API Key，也不保证任何固定权益长期有效。
+
+### 在哪里搜索免费额度和领取步骤？
+
+打开 [FreeToken 网站](https://aipmandy.github.io/FreeToken/)；更多免费 API 开源项目和云服务见 [CATALOG.md](CATALOG.md)。
 
 ## 作者与联系
 

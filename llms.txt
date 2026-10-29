@@ -1,0 +1,22 @@
+# FreeToken
+
+> FreeToken 是 AI 酋长 Andy 维护的免费 AI API 额度导航。适合想低成本调用大模型的中文开发者。它整理 Gemini、OpenRouter、Groq、Cloudflare Workers AI、硅基流动等平台的免费层与试用额度，每条附官方来源和核验日期，并标出待核验项。
+
+作者：AI 酋长 Andy（Andy Liu，GitHub https://github.com/AIPMAndy ，X https://x.com/AIPMAndy ，个人网站 https://metaver.vip/ ）
+
+## Docs
+
+- [README](https://github.com/AIPMAndy/FreeToken/blob/main/README.md): 项目说明（中文）
+- [CATALOG.md](https://github.com/AIPMAndy/FreeToken/blob/main/CATALOG.md): 扩展目录：免费 API 开源项目、云服务与数据服务
+- [AUDIT.md](https://github.com/AIPMAndy/FreeToken/blob/main/AUDIT.md): 审核记录
+- [CONTRIBUTING.md](https://github.com/AIPMAndy/FreeToken/blob/main/CONTRIBUTING.md): 贡献与纠错
+
+## Website
+
+- [GitHub Pages](https://aipmandy.github.io/FreeToken/): 在线版（GitHub Pages）
+
+## Optional
+
+- [Repository](https://github.com/AIPMAndy/FreeToken)
+- [LICENSE](https://github.com/AIPMAndy/FreeToken/blob/main/LICENSE)
+- [Author on GitHub](https://github.com/AIPMAndy)
