@@ -257,6 +257,22 @@
       "checked": null,
       "tags": "Grok xAI 免费 API credits",
       "model": ""
+    },
+    {
+      "id": "anyapi",
+      "name": "AnyAPI.ai",
+      "kind": "free",
+      "region": "聚合",
+      "quota": "Free 计划每日 100,000 ₳nytokens（每 24 小时重置）；免费模型在网页 Playground 内不限量。",
+      "summary": "一个 OpenAI 兼容接口覆盖 400+ 模型的聚合网关，同时提供 Anthropic Messages 端点。",
+      "steps": "注册 → 创建 API Key → 使用 https://api.anyapi.ai/v1 调用；Claude Code 可将 ANTHROPIC_BASE_URL 指向 https://api.anyapi.ai。",
+      "limits": "免费层额度按天重置，不结转；付费方案从 $19.90/月起，按量付费最低 $20。",
+      "source": "https://anyapi.ai/pricing",
+      "portal": "https://anyapi.ai",
+      "verified": true,
+      "checked": "2026-10-22",
+      "tags": "AnyAPI.ai 免费 LLM API OpenAI 兼容 聚合 网关 Claude Code Anthropic",
+      "model": ""
     }
   ]
 }
