@@ -58,6 +58,7 @@
 | [Mistral API](https://console.mistral.ai/) | 待核验 | 官方有按模型的公开定价；免费试用资格请以当前账号 Console 为准。 | [官方来源](https://docs.mistral.ai/inference/pricing) | 账号权益待核实 |
 | [Kimi / Moonshot API](https://platform.kimi.com/) | 待核验 | 官方价格随模型更新；旧“注册送 15 元”尚未找到可长期适用的公开说明。 | [官方来源](https://platform.kimi.com/) | 账号权益待核实 |
 | [xAI Grok API](https://console.x.ai/) | 待核验 | 账户赠金和活动资格需以当前官方 Console 为准。 | [官方来源](https://docs.x.ai/) | 账号权益待核实 |
+| [cheapllm.shop（DeepSeek V4.1 Flash）](https://cheapllm.shop/signup) | 官方免费层（公测） | deepseek-v4.1-flash-1017：公测期间免费且不限速；公测结束后每个账户每小时至少 5,000 输入 + 1,000 输出 Tokens（官方写明的下限）。 | [官方来源](https://cheapllm.shop/docs#free-tier) | 服务方提交，待维护者核验 |
 <!-- FREETOKEN_TABLE_END -->
 
 > 数据解释：**官方免费层**＝官方公布的指定 API / 模型免费层；**试用**＝限额体验金或测试密钥；**按模型区分**＝有免费模型也有付费模型；**待复核**＝不能在缺乏现行公开证据时声称免费。详细的领取步骤、限制和搜索过滤请打开 [FreeToken 网站](https://aipmandy.github.io/FreeToken/)。

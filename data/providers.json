@@ -257,6 +257,22 @@
       "checked": null,
       "tags": "Grok xAI 免费 API credits",
       "model": ""
+    },
+    {
+      "id": "cheapllm",
+      "name": "cheapllm.shop（DeepSeek V4.1 Flash）",
+      "kind": "free",
+      "region": "海外",
+      "quota": "deepseek-v4.1-flash-1017：公测期间免费且不限速；公测结束后每个账户每小时至少 5,000 输入 + 1,000 输出 Tokens（官方写明的下限）。",
+      "summary": "只提供一个模型的小型推理服务，兼容 OpenAI 与 Anthropic 接口，邮箱注册，无需信用卡。",
+      "steps": "邮箱注册 cheapllm.shop → 控制台获取 Key → Base URL 填 https://cheapllm.shop/v1 → 模型填 deepseek-v4.1-flash-1017。",
+      "limits": "公测结束日期未定，官方承诺提前邮件通知；超出免费额度按 Token 计费，添加付款方式前不会扣费。中国大陆访问未经测试。",
+      "source": "https://cheapllm.shop/docs#free-tier",
+      "portal": "https://cheapllm.shop/signup",
+      "verified": false,
+      "checked": null,
+      "tags": "cheapllm DeepSeek V4.1 Flash 免费 API OpenAI 兼容 Anthropic 兼容 不限速",
+      "model": "deepseek-v4.1-flash-1017"
     }
   ]
 }
