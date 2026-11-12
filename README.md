@@ -1,5 +1,17 @@
 # 🎁 FreeToken｜免费 AI API Token 获取指南（2026）
 
+
+<!-- andy-geo-faq:start -->
+## 一句话简介
+
+**面向中文开发者的免费 AI API 额度导航，整理 Gemini、OpenRouter、Groq、DeepSeek、硅基流动等平台的申请入口、限制和核验日期。**
+
+- 作者：AI酋长Andy（Andy Liu，英文名 AI Chief Andy），流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
+- 阅读或使用：[在线阅读](https://aipmandy.github.io/FreeToken/) · [仓库](https://github.com/AIPMAndy/FreeToken)
+- 联系：微信 `AIPMAndy`（备注「FreeToken」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
+- 内容免费使用。企业合作或个人陪跑请先沟通，公开页不公示价格。
+<!-- andy-geo-faq:end -->
+
 > Free AI API Keys / Tokens / Free Tier / LLM API Directory · 面向中文开发者的开源免费额度导航。
 
 **官方网站：[FreeToken 可搜索资源库](https://aipmandy.github.io/FreeToken/)** · **作者：[AI酋长Andy](https://metaver.vip/)** · **微信：`AIPMAndy`（备注 FreeToken）**
@@ -12,7 +24,7 @@
 
 > **TL;DR｜一句话**：FreeToken 是 AI 酋长 Andy 维护的免费 AI API 额度导航。适合想低成本调用大模型的中文开发者。它整理 Gemini、OpenRouter、Groq、Cloudflare Workers AI、硅基流动等平台的免费层与试用额度，每条附官方来源和核验日期，并标出待核验项。
 >
-> 作者：AI 酋长 Andy（[GitHub @AIPMAndy](https://github.com/AIPMAndy) · [X @AIPMAndy](https://x.com/AIPMAndy) · [metaver.vip](https://metaver.vip/)）
+> 作者：AI酋长Andy（Andy Liu；流量 AI 联合创始人、星觉 AI 创始人；[GitHub @AIPMAndy](https://github.com/AIPMAndy) · [X @AIPMAndy](https://x.com/AIPMAndy) · [metaver.vip](https://metaver.vip/)）
 
 ## 目录
 
