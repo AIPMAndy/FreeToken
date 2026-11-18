@@ -42,6 +42,8 @@
 <!-- FREETOKEN_TABLE_START -->
 | 平台 | 类型 | 当前公开政策 / 注意 | 来源 | 审核状态 |
 |---|---|---|---|---|
+| [七牛云 Conatus 限时免费 API](https://www.qiniu.com/ai/model/qiniu/conatus-free) | 试用 / 限时权益 | 实名认证用户每天免费 1 亿 Token，2026-11-30 23:59（北京时间）结束；单笔充值超过 100 元后上限为每天 10 亿 Token。 | [官方来源](https://www.qiniu.com/ai/free-models/conatus-2026) | 2026-11-18 公开文档已核对 |
+| [微信小程序成长计划 / CloudBase](https://mp.weixin.qq.com/) | 试用 / 限时权益 | 符合报名条件的小程序可申领 10 亿 Token + 10 万张生图资源包，领取后 6 个月有效；二期报名截至 2026-12-31。 | [官方来源](https://docs.cloudbase.net/ai/ai-inspire-plan) | 2026-11-18 公开文档已核对 |
 | [Google Gemini API](https://aistudio.google.com/) | 官方免费层 | Gemini 2.5 Flash / Flash-Lite 等部分模型有免费输入输出 Token；实时 RPM/TPM/RPD 按项目和模型显示。 | [官方来源](https://ai.google.dev/gemini-api/docs/pricing) | 2026-10-22 公开文档已核对 |
 | [OpenRouter 免费模型](https://openrouter.ai/models?max_price=0) | 官方免费层 | 免费模型 20 RPM、50 请求/日；账户累计购买至少 $10 额度后上限可至 1,000 请求/日。 | [官方来源](https://openrouter.ai/pricing) | 2026-10-22 公开文档已核对 |
 | [GroqCloud 免费计划](https://console.groq.com/) | 官方免费层 | openai/gpt-oss-20b：30 RPM、1,000 RPD、8,000 TPM（官方 Free Plan 示例）。 | [官方来源](https://console.groq.com/docs/rate-limits) | 2026-10-22 公开文档已核对 |
@@ -62,11 +64,25 @@
 
 > 数据解释：**官方免费层**＝官方公布的指定 API / 模型免费层；**试用**＝限额体验金或测试密钥；**按模型区分**＝有免费模型也有付费模型；**待复核**＝不能在缺乏现行公开证据时声称免费。详细的领取步骤、限制和搜索过滤请打开 [FreeToken 网站](https://aipmandy.github.io/FreeToken/)。
 
+## 2026-11-18 新增｜限时免费 Token 与其他权益
+
+**优先领取：**
+
+- **[七牛云 Conatus](https://www.qiniu.com/ai/free-models/conatus-2026)**：实名即有 **每天 1 亿 Token** 的限时免费 API 额度（`qiniu/conatus-free`），**北京时间 2026-11-30 23:59 截止**；每天 00:00 重置。付费充值超 100 元才能升级到每日 10 亿，不是零成本条件。
+- **[微信小程序成长计划](https://docs.cloudbase.net/ai/ai-inspire-plan)**：符合条件的小程序可申请 **10 亿 Token 和 10 万张生图**，领到后 6 个月有效、二期报名截至 **2026-12-31**。**仅限微信小程序及云开发指定范围**，不是任意后端、任意 API 的通用额度。
+
+**另外两项不属于通用 AI API Token，放在福利附录，不混入上方 API 主表：**
+
+- **[华为云码道 CodeArts Agent](https://support.huaweicloud.com/price-codeartsagent/codeartsagent_billing_0029.html)**：个人体验版 0 元，每月 500 套餐积分；符合条件的新用户注册可得 4,000 活动积分。**这是码道产品内积分，不是大模型开放平台 Token**，每日签到赠额以官方当前页面为准。
+- **[Fireworks Muse Glimmer 30B](https://fireworks.ai/blog/train-muse-glimmer-for-free)**：**截至 2026-11-30**，SFT/DPO/RL 模型训练费用限免且官方说明无需信用卡；**推理与评估调用另收费**。
+
+→ [完整领取方法、条件与截止时间（网页版）](https://aipmandy.github.io/FreeToken/guides/november-2026-free-offers.html)。**只核实官方公开政策，没有登录你的账户领取或验证实际可用额度。**
+
 ## 更多免费 API 开源项目 / 云服务 / 数据服务
 
 原版收集的 **GitHub 免费 API 项目、Claude/Grok/Kimi、AWS、Azure、Google Cloud、GitHub Copilot、NewsAPI、OpenWeather、Alpha Vantage** 等资源已整理成独立的 [扩展目录（含安全与证据边界）](CATALOG.md)，也可浏览 [网页版生态目录](https://aipmandy.github.io/FreeToken/ecosystem.html)。这些候选项目不等于现行可用的免费 API Token。原始历史资料另见 [2026-06-21 旧版](https://github.com/AIPMAndy/FreeToken/blob/daf796ce49bdaf7e1d70c0085f8b36f5a8909b89/README.md)。
 
-## 2026-10-22 最新政策重要变化
+## 2026-10-22 已核验政策变化
 
 - **Hugging Face Inference Providers**：Free 账户已无每月赠送计算积分；原文的 $0.10/月已撤回。PRO/Team 的 $2/月与订阅付费关联，并非 Free 用户福利。详见 [官方说明](https://huggingface.co/docs/inference-providers/pricing)。
 - **阿里云百炼 / Qwen**：首次开通的北京地域用户可获得按模型划分的新人免费额度，通常 100 万 Token / 模型、有效期 90 天。已实名用户请务必启用“免费额度用完即停”。详见 [官方规则](https://help.aliyun.com/zh/model-studio/new-free-quota)。
@@ -143,7 +159,7 @@ curl https://openrouter.ai/api/v1/chat/completions \
 
 ### 有哪些免费的大模型 API 可以用？
 
-资源总表列出 Google Gemini API、OpenRouter 免费模型、GroqCloud 免费计划、Cloudflare Workers AI、硅基流动部分免费模型等官方免费层，以及阿里云百炼、Cohere、Cerebras 等试用额度；DeepSeek、智谱 GLM、Kimi、OpenAI 等标为待核验。每条附官方来源，最近一次复核为 2026-10-22。
+资源总表列出 Google Gemini API、OpenRouter 免费模型、GroqCloud 免费计划、Cloudflare Workers AI、硅基流动部分免费模型等官方免费层，以及阿里云百炼、Cohere、Cerebras 等试用额度；DeepSeek、智谱 GLM、Kimi、OpenAI 等标为待核验。每条附官方来源，旧条目最近一次公开文档复核为 2026-10-22；新增限时活动在 2026-11-18 复核。
 
 ### 免费网页聊天就等于免费 API 吗？
 

@@ -11,6 +11,8 @@
 - [AUDIT.md](https://github.com/AIPMAndy/FreeToken/blob/main/AUDIT.md): 审核记录
 - [CONTRIBUTING.md](https://github.com/AIPMAndy/FreeToken/blob/main/CONTRIBUTING.md): 贡献与纠错
 
+- [2026年11月限时权益](https://aipmandy.github.io/FreeToken/guides/november-2026-free-offers.html): 七牛云每天1亿Token、微信小程序成长计划10亿Token及非API产品福利的适用边界
+
 ## Website
 
 - [GitHub Pages](https://aipmandy.github.io/FreeToken/): 在线版（GitHub Pages）

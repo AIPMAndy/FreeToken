@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026年11月免费 Token 羊毛：七牛云每日1亿 / 微信小程序10亿｜FreeToken</title>
+<meta name="description" content="2026年11月官方免费 Token 政策核查：七牛云 Conatus 每日1亿 Token、微信小程序成长计划10亿 Token；附码道积分与Fireworks训练活动，标明截止时间和API边界。">
+<link rel="canonical" href="https://aipmandy.github.io/FreeToken/guides/november-2026-free-offers.html">
+<meta name="robots" content="index,follow"><style>body{margin:0;background:#f6f7f9;color:#191a20;font:16px/1.85 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}main{max-width:830px;margin:30px auto;background:#fff;padding:clamp(20px,5vw,52px);border:1px solid #eaebef;border-radius:24px}h1{font-size:clamp(30px,5vw,43px);letter-spacing:-1px;line-height:1.3}h2{margin-top:40px;font-size:24px}a{color:#225ce9}p,li{color:#3f4651}ul,ol{padding-left:24px}.note{background:#f3f5fa;padding:16px;border-radius:14px}.tag{color:#225ce9;font-size:13px;font-weight:800}footer{font-size:13px;color:#667;margin-top:35px}code{background:#f1f3f7;padding:2px 5px;border-radius:5px}a:focus-visible{outline:3px solid #8aabff}</style></head><body>
+<main><p><a href="../">← 返回 FreeToken 免费 AI API 资源库</a></p><div class="tag">官方政策公开核验 · 2026-11-18 · 未进行账号实测</div>
+<h1>11 月还能领哪些免费 Token？</h1><p>只收录能在厂商官方页面找到的权益。先区分「通用 API」「限定小程序资源包」「产品内积分」和「免费训练」，不能把四种优惠简单加总成自己的可用 Token。</p>
+<h2>一、七牛云 Conatus：实名每日 1 亿 Token</h2><p>官方活动有效期为北京时间 <strong>2026-10-24 00:00 至 2026-11-30 23:59</strong>。实名认证的用户每天有 <strong>1 亿 Token</strong> 活动额度，支持 `qiniu/conatus-free`，每日北京时间 00:00 重置，不结转。单笔已到账充值<strong>大于 100 元</strong>可以将上限提高到每日 10 亿，注意升级不是无门槛免费。</p>
+<ol><li>进入 <a href="https://www.qiniu.com/ai/free-models/conatus-2026">七牛云官方活动页</a>，登录并确认实名认证资格。</li><li>前往 <a href="https://www.qiniu.com/ai/model/qiniu/conatus-free">官方模型详情</a>核对最新活动和模型 ID。</li><li>在七牛云控制台依照官方文档创建自己的 API Key，以 `qiniu/conatus-free` 发送少量测试请求并查看余额。</li></ol>
+<p class="note"><strong>避坑：</strong>该免费模型用完额度会拒绝调用，活动期结束不自动变收费模型；但不提供生产 SLA、也不应拿来保证持续稳定的客户交付。API Key 不要发到聊天群或公共仓库。</p>
+<h2>二、微信小程序成长计划：一次性 10 亿 Token + 10 万张生图</h2><p>二期报名窗口为 <strong>2026-07-01 至 2026-12-31</strong>，通过符合条件的小程序申请后，礼包可在 6 个月内使用。这是<strong>限定小程序、云开发相关服务端与控制台</strong>的资源包，不是可以任意接入公司后端的通用 AI API 钱包。</p>
+<ol><li>准备微信小程序账号及活动所要求的认证信息。</li><li>进入微信公众平台「行业能力 → 小程序成长计划」申请；确认云开发环境。</li><li>在 <a href="https://docs.cloudbase.net/ai/ai-inspire-plan">腾讯 CloudBase 官方规则</a>核对当前允许的模型、抵扣场景和套餐用尽后的计费方式，再在适用场景调用。</li></ol>
+<p class="note"><strong>适合谁：</strong>确实在做微信小程序 / 小游戏的开发者。外部 Web、通用第三方推理网关、任意外部 Agent 调用都不能默认使用这份赠额。</p>
+<h2>三、别把产品积分当 API Token</h2><p><strong>华为云码道 CodeArts Agent：</strong>个人体验版 0 元，每月包含 500 套餐积分，当前官方计费说明列出符合条件新用户注册的 4,000 活动积分。积分用于码道代码智能体产品；每日签到积分属于限时活动，数额可调整。参见 <a href="https://support.huaweicloud.com/price-codeartsagent/codeartsagent_billing_0029.html">官方计费说明</a>。</p>
+<p><strong>Fireworks Muse Glimmer 30B：</strong>截至 <strong>2026-11-30</strong>，官方限免指定模型的 SFT/DPO/RL 训练，无需信用卡；但推理和评估调用仍按量计费。参见 <a href="https://fireworks.ai/blog/train-muse-glimmer-for-free">Fireworks 官方公告</a>。</p>
+<h2>四、领取前的 5 项核对</h2><ul><li>需要实名认证、特定地区、学生身份或已有小程序吗？</li><li>是公开 API，还是只能在厂商 App/IDE 内消费？</li><li>是否必须绑卡、充值，或者额度耗尽后自动转付费？</li><li>截止日、每日重置时间、一次性有效期分别是什么？</li><li>允许商用及部署吗？是否存在模型下线、速率与 SLA 限制？</li></ul>
+<p class="note">本页是对官方公开政策的核验，不代表作者已领取或实测每个账号的实际额度。活动变化以供应商官网最新规则为准。最后新增权益核验：2026-11-18。</p>
+<footer>维护者：AI酋长Andy · 微信：AIPMAndy · <a href="https://metaver.vip/">metaver.vip</a> · <a href="https://github.com/AIPMAndy/FreeToken">GitHub 开源仓库</a></footer></main></body></html>
