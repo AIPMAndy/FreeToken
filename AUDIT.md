@@ -47,3 +47,12 @@
 - Hugging Face：https://huggingface.co/docs/inference-providers/pricing
 
 最后人工核验：2026-10-22。
+
+## 2026-11-18 新增限时福利验证
+
+- **七牛云 Conatus**：官方活动 https://www.qiniu.com/ai/free-models/conatus-2026；实名认证每日 1 亿 Token；充值单笔大于 100 元才能提升至每日 10 亿（不当作免费无门槛）；仅 `qiniu/conatus-free`；活动至 2026-11-30 23:59 北京时间、额度不结转、无生产 SLA。
+- **微信小程序成长计划**：官方规则 https://docs.cloudbase.net/ai/ai-inspire-plan；小程序 10 亿 Token / 10 万生图，报名截至 2026-12-31，申领后有效 6 个月。仅小程序和云开发支持场景可抵扣，非通用开放 API 额度。
+- **华为 CodeArts Agent**：官方计费 https://support.huaweicloud.com/price-codeartsagent/codeartsagent_billing_0029.html；体验版 0 元/月、每月 500 套餐积分、符合条件新用户 4,000 积分。属于编程产品积分，未计入 API 主表。
+- **Fireworks Muse Glimmer 30B**：官方公告 https://fireworks.ai/blog/train-muse-glimmer-for-free；仅 2026-11-30 前指定模型 SFT/DPO/RL 训练免费，推理与评估仍计费；未计入 API 主表。
+- 本轮从 https://x.com/aiwarts/status/2123044832000036934 获得研究线索，但 **X 原帖正文无法独立读取**，不能推断其内容，也不将二手消息当成上述政策的证明。全部新增事实由服务商官方页面支撑。
+- 新增条目独立记录 2026-11-18 核验日；未复查的旧条目仍保留 2026-10-22。未执行账号登录、KYC、API 实调及真实额度领取；截止时间与模型支持可能变化。

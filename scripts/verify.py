@@ -31,7 +31,14 @@ for x in items:
     require(x["quota"].replace("&", "&amp;") in html, f"{x['id']}: HTML quota differs from ledger")
     require(x["quota"] in readme, f"{x['id']}: README quota differs from ledger")
     require(x["source"].replace("&", "&amp;") in html, f"{x['id']}: official source URL missing in HTML")
-    require(x["checked"] == ledger["updated"] if x["verified"] else x["checked"] is None, f"{x['id']}: invalid verification date")
+    if x["verified"]:
+        require(bool(x["checked"]) and date.fromisoformat(x["checked"]) <= date.fromisoformat(ledger["updated"]) and date.fromisoformat(x["checked"]) <= today, f"{x['id']}: invalid verification date")
+    else:
+        require(x["checked"] is None, f"{x['id']}: unverified item must not claim checked date")
+    if x.get("expires"):
+        require(date.fromisoformat(x["expires"]) >= date.fromisoformat(x["checked"]), f"{x['id']}: expiry before verification")
+    if x.get("apply_by"):
+        require(date.fromisoformat(x["apply_by"]) >= date.fromisoformat(x["checked"]), f"{x['id']}: application closed before verification")
     if x["kind"] == "paid": require(x["verified"],f"{x['id']}: paid status without supporting official source")
 ids_in_html = re.findall(r'<article class="resource" id="([^"]+)"', html)
 require(ids_in_html == ids,"HTML cards must exactly match the dataset order")
@@ -39,18 +46,19 @@ require("FREETOKEN_CARDS_START" in html and "FREETOKEN_TABLE_START" in readme,"m
 require("https://aipmandy.github.io/FreeToken/" in html and 'rel="canonical"' in html,"canonical missing")
 require("https://metaver.vip/" in html and "AIPMAndy" in html,"contact missing")
 require("Free 用户每月赠送积分为 0" in html, "HF updated policy missing")
+require("qiniu/conatus-free" in html and "10 亿 Token" in html, "new official offers missing")
 require("$0.10/月" not in html and "$0.10 / 月" not in html, "obsolete Hugging Face benefit still in HTML")
 require("<div class=\"grid\" id=\"card-list\">0 额度" not in html, "JS string replacement damaged dollar amounts")
 require("</div><p id=\"empty\" 计算额度" not in html, "JS string replacement damaged dollar amounts")
 root = ET.fromstring(sitemap)
 urls=[x.text for x in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
-expected={"https://aipmandy.github.io/FreeToken/","https://aipmandy.github.io/FreeToken/ecosystem.html",*("https://aipmandy.github.io/FreeToken/guides/"+n+".html" for n in ("qwen-free-api","openrouter-free-api","huggingface-pricing"))}
+expected={"https://aipmandy.github.io/FreeToken/","https://aipmandy.github.io/FreeToken/ecosystem.html",*("https://aipmandy.github.io/FreeToken/guides/"+n+".html" for n in ("qwen-free-api","openrouter-free-api","huggingface-pricing","november-2026-free-offers"))}
 require(set(urls)==expected,"sitemap coverage mismatch")
 for u in urls:
     if u.endswith("/"): path=ROOT/"index.html"
     else:path=ROOT/u.split("/FreeToken/",1)[1]
     require(path.exists(),f"missing sitemap target: {u}")
-for name in ("qwen-free-api","openrouter-free-api","huggingface-pricing"):
+for name in ("qwen-free-api","openrouter-free-api","huggingface-pricing","november-2026-free-offers"):
     guide=(ROOT/"guides"/(name+".html")).read_text(encoding="utf-8")
     require('rel="canonical"' in guide,f"guide {name} canonical missing")
     require("AIPMAndy" in guide,f"guide {name} contact missing")
