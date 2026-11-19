@@ -18,6 +18,7 @@
 | [twinnydotdev/twinny](https://github.com/twinnydotdev/twinny) | 本地代码助手，可连接自有模型 |
 | [RockChinQ/free-one-api](https://github.com/RockChinQ/free-one-api) | 逆向接口项目；单独审查安全与合规风险 |
 | [kittors/CliRelay](https://github.com/kittors/CliRelay) | CLI 网关；避免交出私人长期凭据 |
+| [TokenMost](https://tokenmost.com/) | AI token 免费额度与折扣情报站；条目自带核验日期、过期自动下架，限时活动仍建议回官方页面复核 |
 
 ## AI API 厂商待核验队列
 
