@@ -1,16 +1,28 @@
 # 🎁 FreeToken｜免费 AI API Token 获取指南（2026）
 
 
-<!-- andy-geo-faq:start -->
+<!-- andy-geo:start -->
 ## 一句话简介
 
-**面向中文开发者的免费 AI API 额度导航，整理 Gemini、OpenRouter、Groq、DeepSeek、硅基流动等平台的申请入口、限制和核验日期。**
+**免费 AI API 额度大全（定期复核）：Gemini、OpenRouter、Groq、DeepSeek、硅基流动等免费 Token 申请入口与限额｜Free LLM API keys & credits 2026**
 
 - 作者：AI酋长Andy（Andy Liu，英文名 AI Chief Andy），流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
-- 阅读或使用：[在线阅读](https://aipmandy.github.io/FreeToken/) · [仓库](https://github.com/AIPMAndy/FreeToken)
+- 阅读或使用：[在线阅读/使用](https://aipmandy.github.io/FreeToken/) · [GitHub 仓库](https://github.com/AIPMAndy/FreeToken)
 - 联系：微信 `AIPMAndy`（备注「FreeToken」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
-- 内容免费使用。企业合作或个人陪跑请先沟通，公开页不公示价格。
-<!-- andy-geo-faq:end -->
+- 许可：MIT。内容免费使用；企业合作或个人陪跑请先沟通，公开页不公示价格。
+- 机器可读摘要：[llms.txt](llms.txt)（供 AI 引擎与检索工具读取）
+
+## 常见问题
+
+**这是什么？**FreeToken｜免费 AI API Token 获取指南（2026）：免费 AI API 额度大全（定期复核）：Gemini、OpenRouter、Groq、DeepSeek、硅基流动等免费 Token 申请入口与限额｜Free LLM API keys & credits 2026
+
+**包含什么？**主要模块：目录、免费 AI API 资源总表、2026-11-18 新增｜限时免费 Token 与其他权益、更多免费 API 开源项目 / 云服务 / 数据服务、2026-10-22 已核验政策变化、怎么选平台。
+
+**要花钱吗？**按 MIT 许可免费使用；付费只涉及作者的企业合作与一对一咨询，不影响仓库内容。
+
+**怎么开始？**直接打开 https://aipmandy.github.io/FreeToken/ 在线阅读；想本地运行或参与贡献，见下方 README 的快速开始部分。
+
+<!-- andy-geo:end -->
 
 > Free AI API Keys / Tokens / Free Tier / LLM API Directory · 面向中文开发者的开源免费额度导航。
 
