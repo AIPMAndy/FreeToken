@@ -72,6 +72,7 @@
 | [Mistral API](https://console.mistral.ai/) | 待核验 | 官方有按模型的公开定价；免费试用资格请以当前账号 Console 为准。 | [官方来源](https://docs.mistral.ai/inference/pricing) | 账号权益待核实 |
 | [Kimi / Moonshot API](https://platform.kimi.com/) | 待核验 | 官方价格随模型更新；旧“注册送 15 元”尚未找到可长期适用的公开说明。 | [官方来源](https://platform.kimi.com/) | 账号权益待核实 |
 | [xAI Grok API](https://console.x.ai/) | 待核验 | 账户赠金和活动资格需以当前官方 Console 为准。 | [官方来源](https://docs.x.ai/) | 账号权益待核实 |
+| [LinkAGI API 体验额度](https://api.linktoagi.com/sign-up) | 试用 / 第三方体验金 | 新用户注册后加入 QQ 交流群，并在活动帖留言，可由客服核对发放 5 元人民币站内 API 体验额度。 | [站方活动规则](https://16871233.github.io/linkagi-api-starter/#trial) | 2026-11-26 公开规则已核对；运营方提交，未实测领取 |
 <!-- FREETOKEN_TABLE_END -->
 
 > 数据解释：**官方免费层**＝官方公布的指定 API / 模型免费层；**试用**＝限额体验金或测试密钥；**按模型区分**＝有免费模型也有付费模型；**待复核**＝不能在缺乏现行公开证据时声称免费。详细的领取步骤、限制和搜索过滤请打开 [FreeToken 网站](https://aipmandy.github.io/FreeToken/)。

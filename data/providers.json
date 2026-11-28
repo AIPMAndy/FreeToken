@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-26",
   "policy": "公开官方政策核验 ≠ 账号亲测；checked 为逐条核验日期，旧条目不因目录新增而自动刷新",
   "providers": [
     {
@@ -293,6 +293,23 @@
       "checked": null,
       "tags": "Grok xAI 免费 API credits",
       "model": ""
+    },
+    {
+      "id": "linkagi",
+      "name": "LinkAGI API 体验额度",
+      "kind": "trial",
+      "region": "聚合",
+      "quota": "新用户注册后加入 QQ 交流群，并在活动帖留言，可由客服核对发放 5 元人民币站内 API 体验额度。",
+      "summary": "第三方模型 API 中转服务；有限额、需人工领取的体验金，注册不会自动到账。",
+      "steps": "注册 LinkAGI → 加入活动页列出的 QQ 群 → 在活动帖留言 → 将站内 ID 单独发给客服核对 → 到账后选模型与分组创建 API Key。",
+      "limits": "需新用户资格和 QQ 账号。活动页没有要求先充值或绑定信用卡，但未说明领取截止日期、赠额有效期或生产使用保障；领取时向客服确认。API 按量计费，5 元不是 5 美元，也不是每日赠送。不同分组有接口和客户端限制。",
+      "source": "https://16871233.github.io/linkagi-api-starter/#trial",
+      "portal": "https://api.linktoagi.com/sign-up",
+      "verified": true,
+      "checked": "2026-11-26",
+      "tags": "LinkAGI 5元 API 体验额度 人民币 Codex DeepSeek GPT Claude Gemini",
+      "model": "deepseek-flash（DeepSeek 分组示例）",
+      "scope": "第三方 API 体验金"
     }
   ]
 }
