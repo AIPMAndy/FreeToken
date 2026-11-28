@@ -2,6 +2,10 @@
 
 > **注意：这是候选资源清单，不等于现行免费额度认证。** 2026-10-22 整理。FreeToken 官方免费层已核验总表请看 [README](README.md) 或 [资源查询网站](https://aipmandy.github.io/FreeToken/)。特别是 GitHub 代理、反向接口和共享 Key 项目，不属于官方 API 免费层。
 
+## AI 免费额度与会员福利
+
+[六大平台权益目录](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html)：33 项 AI 开发者、会员附赠与免费产品资源，单独区分付费条件、账号待核、限时和失效项。
+
 ## 开源免费 LLM API 资源列表与工具
 
 这些仓库可能提供演示额度、代理、模型接入、客户端封装或免费资源汇总。它们不等于官方 API 免费层，生产使用前应审查服务条款、凭据权限与隐私。

@@ -40,6 +40,7 @@
 
 ## 目录
 
+- [AI 免费额度与会员附赠福利](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html)
 - [免费 AI API 资源总表](#免费-ai-api-资源总表)
 - [更多免费 API 开源项目 / 云服务 / 数据服务](#更多免费-api-开源项目--云服务--数据服务)
 - [怎么选平台](#怎么选平台)
@@ -48,6 +49,48 @@
 - [安全与成本](#安全与成本)
 - [贡献和纠错](#贡献和纠错)
 - [作者与联系](#作者与联系)
+
+## 2026-11-28 新增｜AI 免费额度与会员附赠福利
+
+[查看可搜索权益目录](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html) · [结构化数据](data/ai-benefits.json)
+
+新增 33 项权益及核查提示，覆盖 ChatGPT、Google AI、豆包工作、小豆、WorkBuddy、GitHub。**会员附赠不是无门槛免费；App 积分、GPU/CPU 算力、云服务和 API 赠金不可直接加总。** 活动与账号专享规则须再次核对，媒体来源和官方说明分别标注，未验证领取状态。
+
+| 平台 | 类型 | 权益 / 操作指南 | 当前公开说明 | 证据级别 |
+|---|---|---|---|---|
+| ChatGPT | 会员附赠 | [Pro / Business API 赠金](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#openai-api-benefit) | 符合资格的 Pro $100/$200/$500 档每账单周期分别 $100/$200/$500；Business 按席位池化且月上限 $500。 | 官方公开文档 |
+| ChatGPT | 会员附赠 | [Work / Codex 与云端任务](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#openai-codex) | Pro 包含高级模型和 Codex；Work、Codex 等部分 Agent 功能共享用量。 | 官方公开文档 |
+| ChatGPT | 限时活动 | [Codex 免费 Reset](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#openai-reset) | 合资格活动或邀请可获得可保存的重置次数，数量及有效期因账号而异。 | 官方公开文档 |
+| ChatGPT | 会员附赠 | [Sites 应用托管](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#openai-sites) | Plus/Pro 包含托管；没有固定站点个数限制，单站数据库最高10GB。 | 官方公开文档 |
+| ChatGPT | 会员附赠 | [Deep Research](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#openai-research) | 按套餐提供研究次数，固定月度额度自首次使用起每30天刷新。 | 官方公开文档 |
+| ChatGPT | 免费层 | [ChatGPT 定时任务](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#openai-tasks) | Free/Go 3个、Plus 5个、Pro 15个活跃任务。 | 官方公开文档 |
+| ChatGPT | 限时活动 | [Dot 常驻 AI](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#openai-dots) | 符合资格的账号逐步开放，常驻云端 Agent；曾有首月用量优惠。 | 官方公开文档 |
+| ChatGPT | 会员附赠 | [图片生成与高级模型](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#openai-media) | Pro 含高级模型、图像生成、深度研究等权益。 | 官方公开文档 |
+| Google AI | 会员附赠 | [Google Cloud / GenAI 开发赠金](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#google-cloud) | Google AI Pro 每月 $10；Ultra 5x $40；Ultra 20x $100。 | 官方公开文档 |
+| Google AI | 会员附赠 | [Colab GPU / TPU](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#google-colab) | 符合条件的 Google AI Pro 订阅管理者获得200 CCU。 | 官方公开文档 |
+| Google AI | 免费层 | [Google Flow 视频与图片](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#google-flow) | 不订阅也有每日50 Flow credits；AI Pro 另有每月1000点。 | 官方公开文档 |
+| Google AI | 会员附赠 | [Antigravity 编程 Agent 与 Remote Agents](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#google-antigravity) | AI Pro/Ultra 有较高用量限制，Remote Agents 逐步开放。 | 官方公开文档 |
+| Google AI | 免费层 | [NotebookLM / Gemini Notebook](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#google-notebook) | 免费档100个笔记本、每个50个非笔记来源；Pro 档500个、每个300个。 | 官方公开文档 |
+| Google AI | 会员附赠 | [Gemini / Workspace / AI Studio](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#google-suite) | Pro 提升 Gemini 和 AI Studio 的用量，含 Workspace 部分 AI、Flow Music、5TB或10TB存储及部分家庭共享权益。 | 官方公开文档 |
+| Google AI | 会员附赠 | [Gemini Tasks / 自动化](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#google-tasks) | 合资格账号可创建复杂任务，官方列出美国、18岁以上、英文及 Keep Activity 条件。 | 官方公开文档 |
+| 豆包工作 | 限时活动 | [签到与新人体验](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#doubao-signin) | 2026-10-30 公布：每日200、周一400，累计30天最多8800额度；合格新用户可领30天体验。 | 媒体转述 |
+| 豆包工作 | 限时活动 | [邀请好友与任务奖励](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#doubao-referral) | 双方符合活动条件各得一次套餐重置；最多同时保存10次，有效30天。 | 官方公开文档 |
+| 豆包工作 | 限时活动 | [低倍率模型 / 小额免费](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#doubao-low) | 2026-11-23 报道豆包2.1 Lite、DeepSeek V4.1 Flash 降至0.01倍，部分低消耗任务直接免费。 | 媒体转述 |
+| 豆包工作 | 账号待核 | [云电脑 / 远控 / Skills / 飞书](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#doubao-agent) | 免费或赠送额度能否用于云端、定时、连接器等高级能力，按账号权限和套餐显示。 | 账号待核 |
+| 小豆 | 限时活动 | [小豆邀请制公测](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#xiaodou-beta) | 2026-11-24 开放邀请制公测，新人和邀请成功者有机会获得免费额度，统一赠额未公布。 | 媒体转述 |
+| 小豆 | 账号待核 | [小豆主动跟进和电话](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#xiaodou-tasks) | 媒体11月24日实测最多10个定时任务；代打电话限大陆生活服务商家。 | 媒体实测 |
+| WorkBuddy | 免费层 | [国内体验版积分与代码补全](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#workbuddy-base) | 定价表列每月500基础积分，5000次代码补全（限免期不限次）。 | 官方公开文档 |
+| WorkBuddy | 限时活动 | [混元 Hy4 Flash](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#workbuddy-hy4) | 社区报道每日免费额度，首次限免至2026-11-30 23:59。 | 社区报道 |
+| WorkBuddy | 账号待核 | [Buddy 加油站 / 成长 / 旅行 / 邀请](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#workbuddy-gifts) | 近期用户反馈签到100积分、旅行奖励、成长和邀请赠分等；各活动的金额及有效期不统一。 | 用户报道 |
+| WorkBuddy | 限时活动 | [QClaw 迁移](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#workbuddy-qclaw) | 合资格有效迁移可获1000积分，报道有效期1个月；QClaw 2026-12-24停运。 | 社区报道 |
+| WorkBuddy | 免费层 | [应用托管 / 资料库 / 项目 / 自动任务](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#workbuddy-cloud) | 免费档5GB资料库、5个项目、10个云服务应用、5000资源点；3个自动任务，限免期间99个。 | 官方公开文档 |
+| WorkBuddy | 免费层 | [WorkBuddy 国际版](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#workbuddy-global) | 海外升级公告列出每月100基础积分，活动每日活跃30，合计最高1000/月；新用户250，符合条件7天Pro试用+500。 | 官方公开文档 |
+| GitHub | 免费层 | [Copilot Free](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#github-copilot) | 每月2000次代码补全和有限AI Credits；模型自动选择。 | 官方公开文档 |
+| GitHub | 资格专享 | [学生 / 教师 / 开源维护者](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#github-copilot-edu) | 认证学生可用 Copilot Student（不限代码补全，有限AI Credits）；合格教师和热门开源维护者可免费用 Copilot Pro。 | 官方公开文档 |
+| GitHub | 免费层 | [Actions / AI 项目构建算力](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#github-actions) | GitHub Free 每月$12计算额度；私有标准运行器及适用的云沙盒消耗该额度；公开仓库标准运行器另有免费规则。 | 官方公开文档 |
+| GitHub | 免费层 | [Codespaces AI 开发云电脑](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#github-codespaces) | 个人 Free 每月120核小时、15GB月度存储；双核理论60小时。 | 官方公开文档 |
+| GitHub | 资格专享 | [Student Developer Pack](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#github-student) | 认证学生可查看 Copilot、云服务、Notion教育AI 等合作福利。 | 官方公开文档 |
+| GitHub | 已失效 | [GitHub Models API](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html#github-models-retired) | 2026-07-30 已全面停用，包括模型目录、推理接口、Playground及BYOK。 | 官方公开文档 |
 
 ## 免费 AI API 资源总表
 
@@ -157,6 +200,7 @@ curl https://openrouter.ai/api/v1/chat/completions \
 
 ## 数据与自动审核
 
+- [data/ai-benefits.json](data/ai-benefits.json) 是独立的 AI 产品权益台账（非 API 免费层）；与权益网页同步验证。
 - [data/providers.json](data/providers.json) 是结构化资源台账，保存分类、官方文档、核验范围和日期。
 - [scripts/verify.py](scripts/verify.py) 自动检查台账、README、HTML 卡片、网站地图及过期宣传用语的一致性。
 - [AUDIT.md](AUDIT.md) 保留对抗式审查报告及残余风险；新增信息需要同时更新网站和台账。

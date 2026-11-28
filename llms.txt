@@ -13,6 +13,9 @@
 
 - [2026年11月限时权益](https://aipmandy.github.io/FreeToken/guides/november-2026-free-offers.html): 七牛云每天1亿Token、微信小程序成长计划10亿Token及非API产品福利的适用边界
 
+- [AI 免费额度与会员福利](https://aipmandy.github.io/FreeToken/guides/ai-benefits.html): 六个平台 33 项权益，区分免费、订阅附赠、限时、资格专享、待核和停服。
+- [AI 权益数据](https://aipmandy.github.io/FreeToken/data/ai-benefits.json): 结构化来源、条件、查阅日期及领取步骤。
+
 ## Website
 
 - [GitHub Pages](https://aipmandy.github.io/FreeToken/): 在线版（GitHub Pages）

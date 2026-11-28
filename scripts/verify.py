@@ -52,13 +52,13 @@ require("<div class=\"grid\" id=\"card-list\">0 额度" not in html, "JS string 
 require("</div><p id=\"empty\" 计算额度" not in html, "JS string replacement damaged dollar amounts")
 root = ET.fromstring(sitemap)
 urls=[x.text for x in root.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")]
-expected={"https://aipmandy.github.io/FreeToken/","https://aipmandy.github.io/FreeToken/ecosystem.html",*("https://aipmandy.github.io/FreeToken/guides/"+n+".html" for n in ("qwen-free-api","openrouter-free-api","huggingface-pricing","november-2026-free-offers"))}
+expected={"https://aipmandy.github.io/FreeToken/","https://aipmandy.github.io/FreeToken/ecosystem.html",*("https://aipmandy.github.io/FreeToken/guides/"+n+".html" for n in ("qwen-free-api","openrouter-free-api","huggingface-pricing","november-2026-free-offers","ai-benefits"))}
 require(set(urls)==expected,"sitemap coverage mismatch")
 for u in urls:
     if u.endswith("/"): path=ROOT/"index.html"
     else:path=ROOT/u.split("/FreeToken/",1)[1]
     require(path.exists(),f"missing sitemap target: {u}")
-for name in ("qwen-free-api","openrouter-free-api","huggingface-pricing","november-2026-free-offers"):
+for name in ("qwen-free-api","openrouter-free-api","huggingface-pricing","november-2026-free-offers","ai-benefits"):
     guide=(ROOT/"guides"/(name+".html")).read_text(encoding="utf-8")
     require('rel="canonical"' in guide,f"guide {name} canonical missing")
     require("AIPMAndy" in guide,f"guide {name} contact missing")
@@ -66,6 +66,22 @@ for name in ("qwen-free-api","openrouter-free-api","huggingface-pricing","novemb
 for x in re.findall(r'<a[^>]*target="_blank"[^>]*>',html):
     require('rel="noopener noreferrer"' in x,"external _blank anchor missing noreferrer")
 require("Sitemap: https://aipmandy.github.io/FreeToken/sitemap.xml" in (ROOT/"robots.txt").read_text(encoding="utf-8"), "robots sitemap missing")
-print(f"FreeToken audit: {len(items)} providers; {len(urls)} SEO URLs; {len(errors)} errors")
+# AI product benefits are intentionally separate from the API-only ledger.
+benefits = json.loads((ROOT / "data/ai-benefits.json").read_text(encoding="utf-8"))
+benefit_html = (ROOT / "guides/ai-benefits.html").read_text(encoding="utf-8")
+benefit_ids = [x["id"] for x in benefits["entries"]]
+require(len(benefit_ids) > 0 and len(set(benefit_ids)) == len(benefit_ids), "duplicate/empty benefit IDs")
+require(re.findall(r'<article class="benefit" id="([^"]+)"', benefit_html) == benefit_ids, "benefit HTML order mismatch")
+require("guides/ai-benefits.html" in html and "guides/ai-benefits.html" in readme, "benefit guide missing navigation")
+for b in benefits["entries"]:
+    require(b["type"] in ("免费层","会员附赠","限时活动","账号待核","资格专享","已失效"), f"{b['id']}: benefit type")
+    require(b["source"].startswith("https://") and b["portal"].startswith("https://"), f"{b['id']}: missing source/portal")
+    require(date.fromisoformat(b["reviewed"]) <= today, f"{b['id']}: future review")
+    require(b["quota"].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;") in benefit_html, f"{b['id']}: benefit quota mismatch")
+    require(b["source"].replace("&", "&amp;") in benefit_html, f"{b['id']}: benefit source missing")
+    require(b["name"] in readme, f"{b['id']}: README benefit missing")
+    require(bool(b["evidence"] and b["steps"] and b["limits"]), f"{b['id']}: missing benefit evidence or conditions")
+
+print(f"FreeToken audit: {len(items)} providers; {len(benefit_ids)} benefits; {len(urls)} SEO URLs; {len(errors)} errors")
 for err in errors: print("FAIL:",err)
 sys.exit(1 if errors else 0)
